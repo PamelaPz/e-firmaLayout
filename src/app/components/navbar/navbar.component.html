@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg fixed-top mb-3">
+  <div class="col logo">
+      <a class="navbar-img" href="#" [routerLink]="'.'">
+          <img src="../assets/images/logo.png" alt="">
+      </a>
+      <p>
+          Tu logo
+      </p>
+  </div>
+  <!-- <div class="content_right"> -->
+  <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Firma Electrónica</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Contratos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true"><span>Iniciar Sesión</span></a>
+      </li>
+    </ul>
+  </div>
+  <!-- </div> -->
+</nav>
