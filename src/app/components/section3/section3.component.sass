@@ -3,16 +3,22 @@
     display: flex
     justify-content: center
     align-items: center
+    padding: 2rem 0 0
+    @media (max-width: 568px)
+        padding: 0 1.5rem
     .content_title
-        h2 
+        padding: 2rem 0 0
+        @media (max-width: 568px)
+            padding: 1rem 0
+        h4 
             color: #F7931E
-            text-transform: uppercase
-            font-weight: bold
-        @media (max-width: 575.98px)
-            h2
-                font-size: 1.5rem
+            font-family: "Lulo-Clean-Bold"
+            @media (max-width: 568px)
+                font-size: 1.4rem
     .content_first
         padding: 1rem 0
+        @media (max-width: 568px)
+            padding: 2rem 0 1rem
         ul
             list-style: none
             margin: 0
@@ -22,25 +28,28 @@
             align-items: flex-start
         span
             background-color: #24AACE
-            padding: .2rem .5rem
+            padding: .2rem .4rem .2rem .6rem
             border-radius: 5px
             font-size: 1.5rem
             color: white
-            font-weight: bold
-            @media (max-width: 575.98px)
-                font-size: 1.2rem
+            font-family: "Lulo-Clean-Bold"
+            @media (max-width: 568px)
+                font-size: 1.5rem
 
         .content_info
             padding-left: 1rem
             h5
                 color: #062763
-                font-weight: bold
-                @media (max-width: 575.98px)
+                font-family: "Lulo-Clean-Bold"
+                @media (max-width: 568px)
                     font-size: 1.1rem
             p
                 color: #4D4D4D
+                font-family: "Montserrat"
     .content_img
         margin: auto
         width: 80%
+        @media (max-width: 568px)
+            width: 100%
         img
             width: 100%

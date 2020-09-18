@@ -4,11 +4,16 @@
     display: flex
     justify-content: center
     align-items: center
+    @media (max-width: 568px)
+        height: 100vh
 .content_list
     height: 100vh
     display: flex
     justify-content: center
     align-items: center
+    @media (max-width: 568px)
+        height: auto
+        padding: 0 1rem
     ul
         list-style: none
         padding: 0
@@ -16,25 +21,40 @@
     li
         display: flex
         padding-bottom: 1.5rem
+        @media (max-width: 568px)
+            padding-bottom: 0
     span
         color: #24AACE
-        font-weight: bold
+        font-family: "Lulo-Clean-Bold"
         font-size: 2.5rem
         margin-right: 1rem
         position: relative
         top: -.8rem
+        @media (max-width: 568px)
+            font-size: 2rem
+            top: -.6rem
+            width: 28%
     .content_info
         h4
             color: #F7931E
-            text-transform: uppercase
-            font-weight: bold
+            font-family: "Lulo-Clean-Bold"
+            @media (max-width: 568px)
+                font-size: 1.1rem
         p
             color: #4D4D4D
-            width: 70%
+            font-family: "Montserrat"
+            width: 80%
+            @media (max-width: 568px)
+                width: 100%
 .content_img
     height: 100vh
     display: flex
     justify-content: center
     align-items: center
+    @media (max-width: 568px)
+        height: 45vh
     img
         width: 110%
+        @media (max-width: 568px)
+            width: 90%
+    
