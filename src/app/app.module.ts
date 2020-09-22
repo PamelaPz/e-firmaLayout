@@ -8,6 +8,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { Section1Component } from './components/section1/section1.component';
 import { Section2Component } from './components/section2/section2.component';
 import { Section3Component } from './components/section3/section3.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { Section3Component } from './components/section3/section3.component';
     NavbarComponent,
     Section1Component,
     Section2Component,
-    Section3Component
+    Section3Component,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
