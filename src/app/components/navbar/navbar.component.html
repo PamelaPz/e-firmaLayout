@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg fixed-top mb-3">
   <div class="col logo">
-      <a class="navbar-img" href="#" [routerLink]="'.'">
+      <a class="navbar-img" routerLink="/home">
           <img src="../assets/images/logo.png" alt="">
       </a>
       <p>
@@ -20,7 +20,7 @@
         <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true">Contratos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="'.'" (click)="isMenuCollapsed = true"><span id="login">Iniciar Sesión</span></a>
+        <a class="nav-link" routerLink="/login" (click)="isMenuCollapsed = true"><span id="login">Iniciar Sesión</span></a>
       </li>
     </ul>
   </div>
