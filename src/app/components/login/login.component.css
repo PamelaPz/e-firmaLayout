@@ -12,8 +12,8 @@
 .container-fluid .logo > .img-logo {
     position: relative;
     width: 70%;
-    right: calc(100% - 2rem);
-    top: -20rem;
+    right: calc(100vw - 104vw);
+    top: calc(100vh - 130vh);
 }
 .content_icon{
     background-color: #24AACE;
