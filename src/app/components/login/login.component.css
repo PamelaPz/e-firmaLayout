@@ -1,0 +1,157 @@
+.container-fluid{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+.container-fluid .logo{
+    width: 100%;
+    height: .05rem;
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid .logo > .img-logo {
+    position: relative;
+    width: 70%;
+    right: calc(100% - 2rem);
+    top: -20rem;
+}
+.content_icon{
+    background-color: #24AACE;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('../../../assets/images/bg_login.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+@media (max-width: 575.98px){
+    .content_icon{
+        background-size: cover;
+    }
+}
+.content_icon .content_text{
+    margin: 6rem 0 0;
+}
+.content_text h3, .content_text p{
+    color: #fff;
+    text-align: center;
+}
+.content_text h3{
+    font-family: "Lulo-Clean";
+}
+.content_text p{
+    font-family: "Montserrat";
+}
+
+.content_inputs{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+.content_inputs .content_title > h2{
+    font-family: "Lulo-Clean-Bold";
+    color: #F7931E;
+}
+@media (max-width: 575.98px){
+    .content_title{
+        font-size: 2.5rem;
+        text-align: center;    
+    }
+}
+.content_inputs .content_form {
+    width: 50%;
+}
+@media (max-width: 568px){
+    .content_inputs .content_form{
+        width: 80%;
+    }
+}
+
+.content_form .inputs_login{
+    margin-bottom: 3rem;
+}
+.inputs_login .form-group{
+    display: flex;
+    align-items: flex-end;
+    font-family: "Montserrat";
+    border-bottom: 2px solid #605D5E;
+    transition: border-radius 1s, border-bottom 1s;
+}
+@media (max-width: 568px){
+    .form-control > input{
+        font-size: 1.2rem;
+    }
+}
+img.img {
+    width: 5%;
+    margin: .5rem;
+}
+@media (max-width: 568px){
+    img.img{
+        width: 8%;
+    }
+}
+.inputs_login .form-group:hover {
+    border-radius: 6px;
+    border-bottom: 2px solid #24AACE;
+}
+
+.content_form .form-control{
+    border: none;
+    border-radius: 0;
+    border-style: none;
+    background-color: transparent;
+}
+.content_form .form-control:focus{
+    box-shadow: none;
+}
+.content_form .form-check{
+    width: 40%;
+    margin: auto;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+@media (max-width: 568px){
+    .content_form .form-check{
+        width: 65%;
+    }
+    .form-check input{
+        height: 16px;
+        width: 16px;
+    }
+    .form-check label{
+        font-size: .9rem
+    }
+}
+.content_form .content_btn {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+@media (max-width: 568px){
+    .content_form .content_btn{
+        width: 100%;
+    }
+}
+.content_btn > button{
+    width: 40%;
+    margin-bottom: 1rem;
+    border-radius: 10rem;
+    border: none;
+    background-color: #F7931E;
+}
+@media (max-width: 568px){
+    .content_btn > button{
+        font-size: 1.1rem;
+    }
+}
+.content_btn >  a {
+    color: #F7931E;
+}

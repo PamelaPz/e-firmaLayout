@@ -1,0 +1,89 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0;
+}
+@media (max-width: 568px){
+    .container{
+        padding: 0 1.5rem
+    }
+}
+.content_title{
+    padding: 2rem 0 0;
+}
+@media (max-width: 568px){
+    .content_title{
+        padding: 1rem 0;
+    }
+}
+.content_title h4{
+    color: #F7931E;
+    font-family: "Lulo-Clean-Bold";
+}
+@media (max-width: 568px){
+    .content_title h4{
+        font-size: 1.4rem;
+    }
+}
+    
+.content_first{
+    padding: 1rem 0;
+}
+@media (max-width: 568px){
+    .content_first{
+        padding: 2rem 0 1rem
+    }
+}
+.content_first ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.content_first li{
+    display: flex;
+    align-items: flex-start;
+}
+.content_first span{
+    background-color: #24AACE;
+    padding: .2rem .4rem .2rem .6rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Lulo-Clean-Bold";
+}
+@media (max-width: 568px){
+    .content_first span{
+        font-size: 1.5rem;
+    }
+}
+.content_first .content_info{
+    padding-left: 1rem;
+}
+.content_first h5{
+    color: #062763;
+    font-family: "Lulo-Clean-Bold";
+}
+@media (max-width: 568px){
+    .content_first h5{
+        font-size: 1.1rem;
+    }
+}
+.content_first p{
+    color: #4D4D4D;
+    font-family: "Montserrat";
+}
+
+.content_img{
+    margin: auto;
+    width: 80%;
+}
+@media (max-width: 568px){
+    .content_img{
+        width: 100%;
+    }
+}
+.content_img img{
+    width: 100%;
+}

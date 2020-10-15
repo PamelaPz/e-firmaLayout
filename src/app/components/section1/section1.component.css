@@ -1,0 +1,39 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .content_title {
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    width: 70%;
+}
+@media (max-width: 568px){
+    .container .content_title{
+        width: 90%;
+    }
+}
+.container .content_title h3 {
+    color: #4D4D4D;
+    font-family: "Lulo-Clean-Bold";
+}
+@media (max-width: 568px){
+    .content_title h3 {
+        font-size: 1.4rem
+    }
+}
+    
+.container .content_img{
+    margin: auto;
+    width: 50%;
+}
+@media (max-width: 568px){
+    .container .content_img{
+        width: 90%
+    }
+}
+.content_img img {
+    width: 100%; 
+}

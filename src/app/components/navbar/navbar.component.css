@@ -1,0 +1,73 @@
+.navbar{
+    box-shadow: 1px 3px 10px 1px #C0C9CC;
+    background-color: white;
+}
+.navbar .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar .logo p{
+    font-family: "Lulo-Clean-Bold";
+    margin: 0 !important;
+    color: #24AACE;
+    font-size: 1.5rem;
+}
+@media (max-width: 568px){
+    .navbar .logo p{
+        font-size: 1.1rem;
+    }
+}
+.navbar .logo .navbar-img img{
+    width: 64%;
+}
+@media (max-width: 568px){
+    .navbar .logo .navbar-img img{
+        width: 60%;
+    }
+}
+.navbar .nav-link{
+    color: black;
+    font-family: "Montserrat";
+}
+@media (max-width: 568px){
+    .navbar .nav-link{
+        margin-top: 1rem;
+    }
+}
+.navbar .nav-link:hover{
+    color: #24AACE;
+}
+.navbar #login{
+    background-color: #F7931E;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    color: white;
+}
+@media (max-width: 568px){
+    .navbar #login{
+        color: black;
+        background-color: transparent;
+        border-radius: 0;
+        padding: 0;
+    }
+    #login:hover{
+        color: #24AACE;
+    }
+}
+.navbar #login:hover{
+    background-color: #24AACE;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(36,170,206, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler{
+    border-color: rgba(36,170,206,1);
+}
+.collapse.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item{
+    padding: 0 1.5rem;
+}

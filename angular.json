@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "css"
         }
       },
       "root": "",
@@ -28,8 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass",
-              "src/assets/fonts/fonts-fontname.sass",
+              "src/styles.css",
+              "src/assets/fonts/fonts-fontname.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -93,7 +94,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.css"
             ],
             "scripts": []
           }
